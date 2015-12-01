@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b9f30cfc795af5479fed491f7f150c6
+labels:
+- Health
+- Assist
+- Script
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
