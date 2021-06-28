@@ -18,16 +18,7 @@ namespace Assets.Game.Scripts.Camera
     public float yMargin = 1f; // Distance in the y axis the player can move before the camera follows.
     public float YOffset;
     public float ySmooth = 8f; // How smoothly the camera catches up with it's target movement in the y axis.
-    //public PlayerSimpleMovement playerSMovement;
-
-    //public Transform player;		// Reference to the player's transform.
-
-
-    private void Awake()
-    {
-      // Setting up the reference.
-      //player = GameObject.FindGameObjectWithTag("Player").transform;
-    }
+    
 
     private bool CheckXMargin()
     {

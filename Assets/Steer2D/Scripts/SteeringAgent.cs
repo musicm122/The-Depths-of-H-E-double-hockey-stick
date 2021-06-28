@@ -14,8 +14,7 @@ namespace Steer2D
         public Vector2 CurrentVelocity;
 
         public static List<SteeringAgent> AgentList = new List<SteeringAgent>();
-
-        List<SteeringBehaviour> behaviours = new List<SteeringBehaviour>();
+        readonly List<SteeringBehaviour> behaviours = new List<SteeringBehaviour>();
 
         public void RegisterSteeringBehaviour(SteeringBehaviour behaviour)
         {
